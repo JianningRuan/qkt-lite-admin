@@ -1,0 +1,58 @@
+
+// #app
+.default-theme{
+  background-image: url("./../../assets/images/home/bg.jpg");
+
+  .home{
+    .nav{
+      a{
+        &:nth-child(1){
+          background-image: url("./../../assets/images/home/nav-dsjj.png");
+          &.active{
+            background-image: url("./../../assets/images/home/nav-dsjj-active.png");
+          }
+        }
+        &:nth-child(2){
+          background-image: url("./../../assets/images/home/nav-school.png");
+          &.active{
+            background-image: url("./../../assets/images/home/nav-school-active.png");
+          }
+        }
+        &:nth-child(3){
+          background-image: url("./../../assets/images/home/nav-class.png");
+          &.active{
+            background-image: url("./../../assets/images/home/nav-class-active.png");
+          }
+        }
+        &:nth-child(4){
+          background-image: url("./../../assets/images/home/nav-pre.png");
+          margin-right: 0;
+          &.active{
+            background-image: url("./../../assets/images/home/nav-pre-nav.png");
+          }
+        }
+      }
+    }
+
+    .home-index{
+      .dsjj{
+        height: 347px;
+        background-image: url("./../../assets/images/home/dsjj.png");
+        font-size: 24px;
+      }
+      .hdlc{
+        height: 365px;
+        background-image: url("./../../assets/images/home/hdlc.png");
+      }
+      .jpsz{
+        height: 430px;
+        background-image: url("./../../assets/images/home/jpsz.png");
+      }
+      .pre{
+        width: 687px;
+        height: 485px;
+        background-image: url("./../../assets/images/home/pre-bg.png");
+      }
+    }
+  }
+}
